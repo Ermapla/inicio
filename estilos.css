@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: #FBF338;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #000000;
+    padding: 10px 0;
+  }
+
+  
+  .navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  
+  .navbar li {
+    margin-right: 80px; 
+  }
+  
+  
+  .btns {
+    list-style: none;
+    margin: 20;
+    padding: 0;
+    display: flex;
+  }
+  
+  
+  .btns li {
+    margin-right: 10px; 
+  }
+
+
+.navbar a {
+    font-family: 'Franklin Gothic Medium';
+    text-decoration: none;
+    font-size: 20px;
+    color: #fffefe;
+}
+
+.navbar li:hover {
+    background-color: #3bd1f7;
+    border-radius: 30px;
+}
+
+.btns {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+  }
+  
+  
+  .btn-inline {
+    background-color: #007bff; 
+    color: #fff; 
+  }
+  
+  
+  .btn-outline {
+    border: 2px solid #007bff; 
+    background-color: transparent; 
+    color: #007bff; 
+  }
+  
+
+.titulo {
+    font-family: 'Monofett', monospace;
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);  
+}
+
+img {
+    size: 200px;
+    width: 250px;
+    padding: 30px;
+    margin-right: 80px;
+}
+.parra1 {
+    font-family: 'Merriweather+Sans', monospace;
+    color: #1D2342;
+    font-size: 96px;
+    font-style: italic;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.parra2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1D2342;
+    font-size: 26px;
+    word-wrap: break-word
+}
+
+article {
+  padding: 30px;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center; 
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    cursor: pointer; 
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  form {
+    display: inline-block;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 20px; 
+  }
+
+  p.term {
+    color: #ff0000;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+  }

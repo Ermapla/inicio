@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lector Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Monofett&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a href="indexp1.html" style=" font-family: 'Monofett" >Lector Digital</a>
+  </header>
+  <div class="formulario">
+    <h1>Suscripción</h1>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="tarjeta">Tarjeta de Crédito:</label>
+      <input type="text" id="tarjeta" name="tarjeta" required>
+
+      <label for="genero">Género literario favorito:</label>
+      <select id="genero" name="genero">
+        <option value="novela">Novela</option>
+        <option value="cienciaficcion">Ciencia Ficción</option>
+        <option value="fantasia">Fantasía</option>
+        <option value="poesia">Poesía</option>
+      </select>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+</body>
+</html>
